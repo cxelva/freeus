@@ -4,19 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-      "server": "dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn",
-      "server_port": 443,
-      "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
-      "security": "auto",
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+      "server": "104.17.169.13",
+      "server_port": 2053,
+      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
       "tls": {
         "enabled": true,
-        "server_name": "dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn",
+        "server_name": "inDeX.HaRMONiCA01.WORkers.DeV",
         "insecure": false
       },
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/axch1mttbxz2k55y01",
+        "headers": {
+          "Host": "inDeX.HaRMONiCA01.WORkers.DeV"
+        }
       }
     },
     {
@@ -24,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
