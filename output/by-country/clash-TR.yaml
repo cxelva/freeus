@@ -30,7 +30,7 @@ proxies:
   servername: www.datadoghq.com
   client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  server: nimm.mpd.cc.cd
+  server: 104.21.48.18
   port: 2053
   udp: true
   type: trojan
