@@ -35,7 +35,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -82,6 +82,30 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - xiaohe",
+      "server": "2.29.101.158",
+      "server_port": 443,
+      "uuid": "9a0e84f8-4b58-477f-99da-5fac5a2e58e8",
+      "tls": {
+        "enabled": true,
+        "server_name": "36a466g.fi1.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg",
+          "short_id": "b3c9d0c6bdd114a6"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "0adb9638509b"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -89,7 +113,8 @@
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
         "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 04 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 05 - xiaohe"
       ]
     },
     {
@@ -99,7 +124,8 @@
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
         "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 04 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

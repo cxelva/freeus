@@ -28,7 +28,7 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
   server: 45.144.234.157
   port: 14430
@@ -55,6 +55,21 @@ proxies:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
+- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  server: 2.29.101.158
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  tls: true
+  reality-opts:
+    public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
+    short-id: b3c9d0c6bdd114a6
+  servername: 36a466g.fi1.h1clayd.click
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 0adb9638509b
 proxy-groups:
 - name: PROXIES
   type: select
@@ -64,6 +79,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - xiaohe
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -73,5 +89,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - xiaohe
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 05 - xiaohe
 rules:
 - MATCH,PROXIES
