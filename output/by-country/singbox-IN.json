@@ -20,7 +20,7 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
-      "server": "in.smrtai.top",
+      "server": "178.212.35.198",
       "server_port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "tls": {
@@ -48,7 +48,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
