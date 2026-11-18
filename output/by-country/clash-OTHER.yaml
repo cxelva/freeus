@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
-  server: 172.64.88.98
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: 172.66.140.62
   port: 443
   udp: true
   type: vless
-  uuid: afa524de-2b93-4be9-b846-6bc88d8a2ce1
+  uuid: a25a71d1-10ed-4383-855a-f269a34ca691
   tls: true
-  servername: 1v5Vp5jsQ611A5dsm.PAges.dEV
+  servername: ave-qualifications-choices-populations.trycloudflare.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vl/fbo164EXEqNcjQ9WdWcK?ed=2560
+    path: /a8b8606819ef
     headers:
-      Host: 1v5vp5jsq611a5dsm.pages.dev
+      Host: ave-qualifications-choices-populations.trycloudflare.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 rules:
 - MATCH,PROXIES
