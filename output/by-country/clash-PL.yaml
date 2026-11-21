@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
-  server: 87.228.101.3
+- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
+  server: 31.76.32.122
   port: 443
   udp: true
   type: vless
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  uuid: 71b566cb-78c4-48e4-af5b-720e4f7884f2
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: Rw_ypcQ3am5gspVW2PegJBm3fszjCIj8JYHvSAUPBkY
-    short-id: 50c987749602bcb5
-  servername: www.vk.com
-  client-fingerprint: firefox
+    public-key: O35Np_ugrc3mUDIEO4UnViEwRobM2r9kqQCdcdCHjEI
+    short-id: cb33163cf9c03ab1
+  servername: p1.xvanta.online
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇹 立陶宛 (Lithuania) 01 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
 rules:
 - MATCH,PROXIES
